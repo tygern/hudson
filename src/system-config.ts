@@ -3,6 +3,7 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  'safe-provide': 'vendor/safe-provide/build/index.js'
 };
 
 /** User packages configuration. */
@@ -29,6 +30,7 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/fixtures',
   /** @cli-barrel */
 ];
 
@@ -41,6 +43,7 @@ barrels.forEach((barrelName: string) => {
 declare var System: any;
 
 // Apply the CLI SystemJS configuration.
+//noinspection JSUnusedAssignment
 System.config({
   map: {
     '@angular': 'vendor/@angular',
@@ -51,4 +54,5 @@ System.config({
 });
 
 // Apply the user's configuration.
+//noinspection JSUnusedAssignment
 System.config({ map, packages });

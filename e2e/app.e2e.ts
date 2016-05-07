@@ -5,7 +5,7 @@ describe('hudson App', function() {
 
   beforeEach(() => {
     page = new HudsonPage();
-  })
+  });
 
   it('should display message saying app works', () => {
     page.navigateTo();
