@@ -1,0 +1,16 @@
+<table>
+  <thead>
+  <tr>
+    <th>Home</th>
+    <th></th>
+    <th>Away</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let fixture of fixtureList">
+    <td>{{fixture.homeTeam.name}}</td>
+    <td>{{fixture.homeGoals}} - {{fixture.awayGoals}}</td>
+    <td>{{fixture.awayTeam.name}}</td>
+  </tr>
+  </tbody>
+</table>

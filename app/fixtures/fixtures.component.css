@@ -1,0 +1,19 @@
+table {
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+  table th {
+    background-color: #6EEB83;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem; }
+  table td, table th {
+    padding: .625rem 1rem; }
+  table td:first-child {
+    text-align: right; }
+  table td:last-child {
+    text-align: left; }
+  table tbody tr:hover {
+    cursor: pointer;
+    background-color: #fafafa; }
