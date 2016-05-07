@@ -1,0 +1,8 @@
+/dist
+/tmp
+/node_modules
+/.idea
+/typings
+
+/e2e/*.js
+/e2e/*.map
